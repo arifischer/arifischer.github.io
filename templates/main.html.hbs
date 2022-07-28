@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html {{~#attributes.lang}} lang="{{.}}" {{~/attributes.lang}}>
+<head>
+  {{#attributes.doctitle}}
+  <title>{{.}}</title>
+  {{/attributes.doctitle}}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="generator" content="{{generator.name}}">
+  {{#with attributes}}
+  {{#app-name}}
+  <meta name="application-name" content="{{.}}">
+  {{/app-name}}
+  {{#description}}
+  <meta name="description" content="{{.}}">
+  {{/description}}
+  {{#keywords}}
+  <meta name="keywords" content="{{.}}">
+  {{/keywords}}
+  {{#copyright}}
+  <meta name="copyright" content="{{.}}">
+  {{/copyright}}
+  {{#author}}
+  <meta name="author" content="{{.}}">
+  {{/author}}
+  {{#stylesdir}}
+  {{#../stylesheet}}
+  {{> stylesheet-ref path=(resolve-path ../../stylesdir ../../stylesheet)}}
+  {{/../stylesheet}}
+  {{/stylesdir}}
+  {{/with}}
+  {{> stylesheet-ref path="asset/node_modules/bootstrap/dist/css/bootstrap.min.css"}}
+  {{> stylesheet-ref path="asset/node_modules/@fortawesome/fontawesome-free/css/all.min.css"}}
+  {{> stylesheet-ref path="asset/node_modules/@fontsource/open-sans/index.css"}}
+  {{> stylesheet-ref path="asset/css/highlighting/github.css"}}
+  {{> stylesheet-ref path="asset/css/main.css"}}
+  {{> script-ref path="asset/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"}}
+  {{> script-ref path="asset/node_modules/jquery/dist/jquery.min.js"}}
+</head>
+<body>
+{{> header}}
+{{> content}}
+{{> footer}}
+</body>
+</html>

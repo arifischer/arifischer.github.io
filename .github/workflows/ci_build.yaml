@@ -1,0 +1,19 @@
+name: CI for generating a static website
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v2
+      - name: Build static website
+        uses: brettaufheber/asciidoc-with-gh-pages-action@v1.0.0
+        with:
+          domain: eleven-kaffeebar.de
+          branch: gh-pages
+          user: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>

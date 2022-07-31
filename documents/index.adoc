@@ -1,0 +1,15 @@
+= Über uns - Eleven Kaffeebar
+:copyright: © 2022 Eleven Kaffeebar, CC-BY-SA-4.0 License
+:lang: de
+
+== Herzlich willkommen im Café - Eleven Kaffeebar
+
+[.float-group]
+--
+[.right]
+image::asset/images/Außenansicht.jpg[Außenansicht vom Café,width="500"]
+
+Inmitten der Pirnaer Altstadt genießen Sie im loungigen Ambiente Kaffee- und Schokoladenspezialitäten, sowie hausgemachte Kuchen, Torten und Snacks.
+Oder Sie starten mit unserem vielseitigen Frühstücksangebot in den Tag.
+Für Frühstück mit Freunden oder Feierlichkeiten öffnen wir nach Reservierung auch gerne außerhalb unserer Öffnungszeiten.
+--

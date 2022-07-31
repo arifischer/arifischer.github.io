@@ -1,0 +1,5 @@
+= Speisen und Getränke - Eleven Kaffeebar
+:copyright: © 2022 Eleven Kaffeebar, CC-BY-SA-4.0 License
+:lang: de
+
+== Speisen und Getränke

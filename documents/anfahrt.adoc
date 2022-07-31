@@ -1,0 +1,16 @@
+= Anfahrt - Eleven Kaffeebar
+:copyright: © 2022 Eleven Kaffeebar, CC-BY-SA-4.0 License
+:lang: de
+:figure-caption!:
+
+== Anfahrt
+
+[.float-group]
+--
+[.left]
+.Ausschnitt von OpenStreetMap
+image::asset/images/map.png[Außenansicht vom Café,width="500"]
+
+Eleven Kaffeebar +
+https://www.google.de/maps/place/Eleven+KAFFEEBAR+Pirna/@50.9627609,13.9387076,17z/data=!4m12!1m6!3m5!1s0x4709b96dc6169367:0x11aab35184b35a79!2sEleven+KAFFEEBAR+Pirna!8m2!3d50.9624041!4d13.9399508!3m4!1s0x4709b96dc6169367:0x11aab35184b35a79!8m2!3d50.9624041!4d13.9399508?hl=de[Schuhgasse 11, 01796 Pirna]
+--

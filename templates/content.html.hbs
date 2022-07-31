@@ -1,5 +1,20 @@
 <div id="content-wrapper">
   <div class="container-fluid">
+    <div class="row">
+      <a id="logo" class="" href="https://eleven-kaffeebar.de">
+        <img
+            src="{{resolve-path (relative-path (dirname @root.attributes.docfile) '') 'asset/images/logo/logo-eleven-kaffeebar.svg'}}"
+            alt="Eleven Kaffeebar Logo">
+      </a>
+    </div>
+    <div class="row head-section">
+      {{#each collections.properties.head-section}}
+      <div class="col-sm-4">
+        <div class="fw-bolder">{{this.name}}</div>
+        <div>{{{asciidoc this.content}}}</div>
+      </div>
+      {{/each}}
+    </div>
     <div id="content">
       {{{content}}}
     </div>

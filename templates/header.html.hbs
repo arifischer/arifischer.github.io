@@ -1,27 +1,9 @@
 <header>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-10">
-        <a class="brand brand-print" href="{{> base-url}}">
-          <span class="fa fa-layer-group"></span> {{collections.properties.project.title}}
-        </a>
-        <a class="brand brand-normal" href="{{> base-url}}">
-          <span class="fa fa-layer-group"></span> {{collections.properties.project.title}}
-        </a>
-      </div>
-      <div class="col-2 text-right">
-        <a class="btn navbar-button collapsed"
-           data-bs-toggle="collapse"
-           data-bs-target="#navbar-content"
-           aria-controls="navbar-content"
-           aria-expanded="false"
-        ><span class="icon"></span></a>
-      </div>
-    </div>
-    <div class="row">
       <div class="col-lg-12">
         <nav id="nav-default" class="navbar navbar-expand-lg navbar-dark">
-          <div class="collapse navbar-collapse" id="navbar-content">
+          <div class="navbar-collapse" id="navbar-content">
             <ul class="navbar-nav me-auto">
               {{#each collections.navbar.links}}
               {{#with (object a=(normalize-path path) b=(normalize-path @root.attributes.docfile)) as | path |}}
@@ -35,13 +17,8 @@
             </ul>
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a href="https://github.com/brettaufheber/asciidoc-with-gh-pages-action">
-                  <span class="fab fa-github"></span> Project Repository
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference">
-                  <span class="fa fa-question"></span> AsciiDoc Syntax
+                <a href="https://de-de.facebook.com/eleven.kaffeebar.pirna">
+                  <span class="fab fa-facebook"></span> Unsere Facebook-Seite
                 </a>
               </li>
             </ul>

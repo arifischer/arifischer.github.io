@@ -47,6 +47,16 @@ h2 {
     position: relative;
 }
 
+#content-wrapper a {
+    text-decoration: none;
+}
+
+#content-wrapper a:hover,
+#content-wrapper a:focus,
+#content-wrapper a.active {
+    text-decoration: underline;
+}
+
 #content {
     width: 100%;
     max-width: none;

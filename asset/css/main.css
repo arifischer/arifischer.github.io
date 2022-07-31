@@ -35,7 +35,7 @@ h2 {
 }
 
 .container-fluid {
-    max-width: 980px;
+    max-width: 800px;
 }
 
 #content-wrapper {
@@ -177,7 +177,7 @@ table.tableblock > .title,
 /* wide display layout
  */
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 
     header .navbar-button {
         display: none;

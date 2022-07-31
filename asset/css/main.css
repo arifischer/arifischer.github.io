@@ -1,0 +1,239 @@
+/* defaults
+ */
+
+html,
+body {
+    height: 100%;
+}
+
+a {
+    cursor: pointer;
+    outline: 0 !important;
+}
+
+body {
+    background-color: hsl(186, 100%, 21%);
+    color: hsl(0, 0%, 33%);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: hsl(186, 100%, 21%) !important;
+}
+
+h1,
+h2 {
+    font-size: 3em;
+    font-family: "Chatelain des Radis", sans-serif !important;
+}
+
+.container-fluid {
+    max-width: 980px;
+}
+
+#content-wrapper {
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 2px 2px -2px hsla(0, 0%, 0%, 0.6) inset;
+    min-height: 30em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    position: relative;
+}
+
+#content {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+header {
+    border-bottom: 4px solid hsla(0, 0%, 0%, 0.4);
+    font-weight: 600;
+}
+
+footer {
+    border-top: 1px solid hsla(0, 0%, 0%, 0.4);
+    box-shadow: 0 5px 5px -5px hsla(0, 0%, 0%, 0.6) inset;
+    min-height: 82px;
+}
+
+header,
+footer {
+    color: hsl(0, 0%, 100%);
+    font-size: 0.9em;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+header a,
+footer a {
+    color: hsl(200, 50%, 77%);
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+header a:hover,
+header a:focus,
+header a.active,
+footer a:hover,
+footer a:focus,
+footer a.active {
+    color: hsl(200, 50%, 77%);
+    text-decoration: underline;
+}
+
+/* additional elements
+ */
+
+#logo {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.modal-dialog .modal-body p {
+    font-size: 0.9em;
+}
+
+.head-section {
+    margin-top: 33px;
+    margin-bottom: 33px;
+    padding: 13px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+.head-section,
+.head-section p {
+    font-size: 0.9em;
+}
+
+/* navigation
+ */
+
+header nav#nav-default .navbar-nav {
+    margin: 0.2em 0 0 0;
+}
+
+header nav#nav-default a {
+    color: hsla(0, 0%, 100%, 0.85);
+}
+
+header nav#nav-default a:hover,
+header nav#nav-default a:focus,
+header nav#nav-default a.active {
+    color: hsla(0, 0%, 100%, 1.0);
+}
+
+/* customization of Asciidoctor style
+ */
+
+.subheader,
+.admonitionblock td.content > .title,
+.audioblock > .title,
+.exampleblock > .title,
+.imageblock > .title,
+.listingblock > .title,
+.literalblock > .title,
+.stemblock > .title,
+.openblock > .title,
+.paragraph > .title,
+.quoteblock > .title,
+table.tableblock > .title,
+.verseblock > .title,
+.videoblock > .title,
+.dlist > .title,
+.olist > .title,
+.ulist > .title,
+.qlist > .title,
+.hdlist > .title,
+#toctitle,
+.sidebarblock > .content > .title,
+.quoteblock blockquote::before {
+    color: hsl(80, 63%, 53%);
+}
+
+/* wide display layout
+ */
+
+@media (min-width: 992px) {
+
+    header .navbar-button {
+        display: none;
+    }
+
+    header nav#nav-default .navbar-nav > li {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    header nav#nav-default .navbar-nav > li:first-child {
+        margin-left: 0;
+    }
+
+    header nav#nav-default .navbar-nav > li:last-child {
+        margin-right: 0;
+    }
+
+    header nav#nav-default .navbar-nav > li > a {
+        line-height: 23px;
+        padding: 8px 1px 16px 1px;
+        margin-bottom: 4px;
+    }
+
+    header nav#nav-default .navbar-nav > li > a:hover,
+    header nav#nav-default .navbar-nav > li > a:focus {
+        text-decoration: none;
+    }
+
+    header nav#nav-default .navbar-nav > li > a.active {
+        text-decoration: none;
+        border-bottom: 4px solid hsl(80, 63%, 53%);
+        margin-bottom: 0;
+    }
+
+    header nav#nav-default .navbar-nav {
+        border: 0;
+    }
+}
+
+/* print layout
+ */
+
+@media print {
+
+    body {
+        background-color: hsl(0, 0%, 100%);
+        color: hsl(0, 0%, 0%);
+    }
+
+    header nav#nav-default {
+        display: none;
+    }
+
+    header {
+        border-bottom: 1px solid grey;
+    }
+
+    footer {
+        border-top: 1px solid grey;
+    }
+
+    header,
+    footer,
+    header a,
+    footer a {
+        color: inherit;
+    }
+}

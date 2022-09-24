@@ -1,9 +1,9 @@
 links:
   - name: Über Uns
     path: ./index.adoc
-  - name: Speisen und Getränke
-    path: ./speisen-und-getraenke.adoc
+#  - name: Speisen und Getränke
+#    path: ./speisen-und-getraenke.adoc
   - name: Anfahrt
     path: ./anfahrt.adoc
-  - name: AsciiDoc Demo
-    path: ./demo.adoc
+#  - name: AsciiDoc Demo
+#    path: ./demo.adoc

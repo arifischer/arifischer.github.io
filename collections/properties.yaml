@@ -6,15 +6,16 @@ head-section:
   - name: Reservierung
     content: |
       +++<i class="fa fa-phone"></i>+++ link:tel:03501/4702967[03501/4702967] +
-      +++<i class="fa fa-envelope"></i>+++ link:mailto:reservierung@eleven-kaffeebar.de[reservierung@eleven-kaffeebar.de] +
+      +++<i class="fa fa-envelope"></i>+++ link:mailto:kontakt@eleven-kaffeebar.de[kontakt@eleven-kaffeebar.de] +
       Bitte beachten Sie, dass wir Reservierungen via E-Mail mindestens einen Tag im Voraus erhalten müssen.
   - name: Öffnungszeiten
     content: |
       Mo: Ruhetag +
-      Di - Fr: 9:00 - 15:30 +
-      Sa: 9:00 - 14:00
+      Di - Fr: 8:30 - 15:30 +
+      Sa: 8:30 - 14:00 +
+      So: Ruhetag
   - name: Kontakt
     content: |
       +++<i class="fa fa-phone"></i>+++ link:tel:03501/4702967[03501/4702967] +
-      +++<i class="fa fa-envelope"></i>+++ link:mailto:kontakt@eleven-kaffeebar.de[kontakt@eleven-kaffeebar.de] +
+      +++<i class="fa fa-envelope"></i>+++ link:mailto:info@eleven-kaffeebar.de[info@eleven-kaffeebar.de] +
       +++<i class="fa fa-map-marker"></i>+++ https://www.google.de/maps/place/Eleven+KAFFEEBAR+Pirna/@50.9627609,13.9387076,17z/data=!4m12!1m6!3m5!1s0x4709b96dc6169367:0x11aab35184b35a79!2sEleven+KAFFEEBAR+Pirna!8m2!3d50.9624041!4d13.9399508!3m4!1s0x4709b96dc6169367:0x11aab35184b35a79!8m2!3d50.9624041!4d13.9399508?hl=de[Schuhgasse 11, 01796 Pirna]

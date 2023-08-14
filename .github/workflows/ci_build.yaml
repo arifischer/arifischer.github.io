@@ -11,6 +11,11 @@ jobs:
     steps:
       - name: Checkout project
         uses: actions/checkout@v2
+      - name: Update Node.js to latest stable version
+        run: |
+          sudo npm cache clean -f
+          sudo npm install -g n
+          sudo n stable
       - name: Build static website
         uses: brettaufheber/asciidoc-with-gh-pages-action@v1.0.0
         with:
